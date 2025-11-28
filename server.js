@@ -11,7 +11,7 @@ const Errormiddle = require("./utils/Error-middlewear");
 const contactRouter= require("./router/Contact-router");
 
 const corsoptions={
-    origin:`http://localhost:3000`,
+    origin:`https://smpa-frontend.onrender.com`,
     method:"GET, PUT,POST ,DELETE, ",
     credential:true
 }
